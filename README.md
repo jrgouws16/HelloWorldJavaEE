@@ -49,6 +49,16 @@ asadmin deploy target/hello-javaee8.war
 - Make sure Payara server is running (http://localhost:8080/)
 - View avaialble endpoints (http://localhost:4848/) under Applications -> hello-javaee8 -> View endpoints
 
+# Building and running a jar executable
+- Create the jar
+```shell script
+java -jar /media/fastcomm/HDD/pm.jar --deploy target/hello-javaee8.war --port 8080 --outputUberJar helloTodo.jar
+```
+- Run the jar
+```shell script
+java -jar helloTodo.jar
+```
+
 
 # RUN
 docker rm -f hello-javaee8 || true && docker run -d -p 8080:8080 -p 4848:4848 --name hello-javaee8 academy.learnprogramming/hello-javaee8 

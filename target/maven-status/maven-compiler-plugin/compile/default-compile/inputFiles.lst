@@ -1,2 +1,4 @@
-/home/fastcomm/workspaces/hello-javaee8/src/main/java/com/airhacks/JAXRSConfiguration.java
-/home/fastcomm/workspaces/hello-javaee8/src/main/java/com/airhacks/ping/boundary/PingResource.java
+/home/fastcomm/workspaces/hello-javaee8/src/main/java/academy/learnprogramming/rest/TodoConfig.java
+/home/fastcomm/workspaces/hello-javaee8/src/main/java/academy/learnprogramming/entity/Todo.java
+/home/fastcomm/workspaces/hello-javaee8/src/main/java/academy/learnprogramming/rest/TodoRest.java
+/home/fastcomm/workspaces/hello-javaee8/src/main/java/academy/learnprogramming/service/TodoService.java
